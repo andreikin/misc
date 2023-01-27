@@ -6,14 +6,17 @@ global proc shelf_Rigging () {
 
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
-        -width 23
-        -height 23
+        -width 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "mayaOpenDialogCom" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "mayaOpenDialogCom" 
@@ -37,14 +40,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Delete construction history on the selected object(s)" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "History" 
@@ -69,14 +75,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Display relationships among nodes in your scene graphically" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Node Editor" 
@@ -101,14 +110,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from an_rigSys import an_rigSys\nan_rigSys()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from an_rigSys import an_rigSys\nan_rigSys()" 
@@ -133,14 +145,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya.cmds as cmds\nfrom an_scriptManager import *" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya.cmds as cmds\nfrom an_scriptManager import *" 
@@ -171,20 +186,24 @@ global proc shelf_Rigging () {
         -visible 1
         -preventOverride 0
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -style "shelf" 
         -horizontal 0
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Joint Tool: Click to place joint, click on existing joint to add to skeleton, click/drag to position joint" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Joint Tool" 
@@ -209,14 +228,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Orient joint options" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "orientJointOptionItem" 
@@ -241,14 +263,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Create IK handle on joint chain" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Create IK Handle" 
@@ -272,14 +297,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from an_createControls import an_createControls\nan_createControls()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from an_createControls import an_createControls\nan_createControl..." 
@@ -304,14 +332,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from  an_Procedures.ribbon import  *\nribonUi()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from  an_Procedures.ribbon import  *\nribonUi()" 
@@ -336,14 +367,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Locator: Create a locator object on the grid" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Locator" 
@@ -367,14 +401,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "cmds.delete (cmds.pointConstraint( cmds.ls(sl=1)[0], cmds.ls(sl=1)[1], mo=False))" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "cmds.delete (cmds.pointConstraint( cmds.ls(sl=1)[0], cmds.ls(sl=..." 
@@ -399,14 +436,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select all the children of the current selection" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Select Hierarchy" 
@@ -431,14 +471,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Toggle local rotation axis visibility" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Local Rotation Axes" 
@@ -463,14 +506,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "ct = cmds.ls(sl=True )[0]\nrigGrp = cmds.connectionInfo(ct+'.message', destinationFromSource=True)[0].split('.')[0]\nif not cmds.getAttr(rigGrp+\".rigVis\"): cmds.setAttr(rigGrp+\".rigVis\", 1)\nelse: cmds.setAttr(rigGrp+\".rigVis\", 0)" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "ct = cmds.ls(sl=True )[0]\nrigGrp = cmds.connectionInfo(ct+'.mess..." 
@@ -495,14 +541,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "[An_Controllers(obj).showTransAttrs() for vObj in  cmds.ls(sl=True) " 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "[An_Controllers(obj).showTransAttrs() for vObj in  cmds.ls(sl=Tr..." 
@@ -527,14 +576,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya.cmds as cmds\nvis = cmds.getAttr(\"switch_CT.renderGeometry\") \ncmds.setAttr(\"switch_CT.renderGeometry\", abs(vis-1)) " 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya.cmds as cmds\nvis = cmds.getAttr(\"switch_CT.renderGeo..." 
@@ -559,14 +611,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya.cmds as cmds\n\nattr = 'switch_CT.jntVis'\nif cmds.objExists(attr):    \n    cmds.setAttr(\"switch_CT.jntVis\", not cmds.getAttr(attr))" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya.cmds as cmds\n\nattr = 'switch_CT.jntVis'\nif cmds.objE..." 
@@ -591,14 +646,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )+0.1 )" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from maya.cmds import *\njointDisplayScale(jointDisplayScale( q=T..." 
@@ -622,14 +680,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "\nfrom maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )-0.1 )" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "\nfrom maya.cmds import *\njointDisplayScale(jointDisplayScale( q=..." 
@@ -653,14 +714,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "for obj in cmds.ls(sl=True):\n    for attr in cmds.listAttr(obj,  r=True, k=True ):\n        if attr in ['translateX', 'translateY', 'translateZ', 'rotateX', 'rotateY', 'rotateZ']:\n            cmds.setAttr (obj+'.'+attr, 0 )" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "for obj in cmds.ls(sl=True):\n    for attr in cmds.listAttr(obj, ..." 
@@ -685,14 +749,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Attributes = cmds.channelBox  ('mainChannelBox', q = True, selectedMainAttributes = True ) \nObj = cmds.ls (sl=True )[0]\n\nan_attrVal = []\nif Attributes:  # if attr selected\n    for attr in Attributes:\n        an_attrVal.append([attr, cmds.getAttr(Obj+'.'+attr)])" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Attributes = cmds.channelBox  ('mainChannelBox', q = True, selec..." 
@@ -717,14 +784,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "for attr in an_attrVal:\n    cmds.setAttr( cmds.ls (sl=True )[0]+'.'+attr[0], attr[1])\n" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "for attr in an_attrVal:\n    cmds.setAttr( cmds.ls (sl=True )[0]+..." 
@@ -749,14 +819,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya.cmds as cmds\nimport maya.mel as mm\nimport cPickle\n\ndef an_killNC(v_seursNane): #ubivaet vse nejmspejsy v vxodyazhix imenax\n    if  \":\" in v_seursNane :  return v_seursNane.split(\":\")[-1]\n    else: return v_seursNane\n\ndef an_copyPos():\n    cmds.ls(sl=True)\n    root = cmds.listRelatives( cmds.ls(sl=True)[0], fullPath=True )[0].split('|')[1]\n    cmds.select(root, hierarchy=True)\n    vObjts = [x for x in cmds.ls(sl=True) if x[-3:] =='_CT']\n    cmds.select(cl=True)\n    \n     \n    result = []\n    for vObj in vObjts:\n        vAttr = cmds.listAttr(vObj, k=True, u=True, s=True, v=True)         #poluchaem spisok atributov\n        try:\n            vData = []\n            for v_each in vAttr :     #poluchaem spisok znachenij etix atributov\n                    vVal = cmds.getAttr  (vObj +\".\"+v_each)\n                    vData.append(vVal)\n            result.append([an_killNC(vObj), vAttr, vData])\n        except TypeError: pass\n        \n    \n    vFileName = [mm.eval(\"getenv (\\\"HOME\\\")\")+'/tmp.dat']\n    \n    f = open(vFileName[0], 'w')\n    cPickle.dump(result , f )\n    f.close()\n \n    \ndef an_pastePos():\n\n    vFileName = [mm.eval(\"getenv (\\\"HOME\\\")\")+'/tmp.dat']\n    r = open(vFileName[0], 'r')\n    rData = cPickle.load(r)\n    r.close()\n\n    vObjts =  cmds.ls (sl = True)\n    vPrefix = \"\"\n    if vObjts:                                #videlenie est\n        if  \":\" in vObjts[0] :      #ref\n            vPrefix = vObjts[0].split(\":\")[0]+\":\"\n        else:vPrefix = \"\"\n    for vEachCt  in rData:\n            for vAttr, val in zip(vEachCt[1], vEachCt[2]):\n                #print vPrefix+vEachCt[0]\n                if an_chekAttr(vPrefix+vEachCt[0], vAttr):\n                    if cmds.nodeType (vPrefix+vEachCt[0])== \"transform\":\n                        cmds.setAttr (vPrefix+vEachCt[0]+\".\"+vAttr, val)\n   \n   \nan_copyPos()\n   \n#an_pastePos()  \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n    " 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya.cmds as cmds\nimport maya.mel as mm\nimport cPickle\n\nd..." 
@@ -781,14 +854,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya.cmds as cmds\nimport maya.mel as mm\nimport cPickle\n\ndef an_killNC(v_seursNane): #ubivaet vse nejmspejsy v vxodyazhix imenax\n    if  \":\" in v_seursNane :  return v_seursNane.split(\":\")[-1]\n    else: return v_seursNane\n\ndef an_copyPos():\n    cmds.ls(sl=True)\n    root = cmds.listRelatives( cmds.ls(sl=True)[0], fullPath=True )[0].split('|')[1]\n    cmds.select(root, hierarchy=True)\n    vObjts = [x for x in cmds.ls(sl=True) if x[-3:] =='_CT']\n    cmds.select(cl=True)\n    \n     \n    result = []\n    for vObj in vObjts:\n        vAttr = cmds.listAttr(vObj, k=True, u=True, s=True, v=True)         #poluchaem spisok atributov\n        try:\n            vData = []\n            for v_each in vAttr :     #poluchaem spisok znachenij etix atributov\n                    vVal = cmds.getAttr  (vObj +\".\"+v_each)\n                    vData.append(vVal)\n            result.append([an_killNC(vObj), vAttr, vData])\n        except TypeError: pass\n        \n    \n    vFileName = [mm.eval(\"getenv (\\\"HOME\\\")\")+'/tmp.dat']\n    \n    f = open(vFileName[0], 'w')\n    cPickle.dump(result , f )\n    f.close()\n \n    \ndef an_pastePos():\n\n    vFileName = [mm.eval(\"getenv (\\\"HOME\\\")\")+'/tmp.dat']\n    r = open(vFileName[0], 'r')\n    rData = cPickle.load(r)\n    r.close()\n\n    vObjts =  cmds.ls (sl = True)\n    vPrefix = \"\"\n    if vObjts:                                #videlenie est\n        if  \":\" in vObjts[0] :      #ref\n            vPrefix = vObjts[0].split(\":\")[0]+\":\"\n        else:vPrefix = \"\"\n    for vEachCt  in rData:\n            for vAttr, val in zip(vEachCt[1], vEachCt[2]):\n                #print vPrefix+vEachCt[0]\n                if an_chekAttr(vPrefix+vEachCt[0], vAttr):\n                    if cmds.nodeType (vPrefix+vEachCt[0])== \"transform\":\n                        cmds.setAttr (vPrefix+vEachCt[0]+\".\"+vAttr, val)\n   \n   \n#an_copyPos()\n   \nan_pastePos()  \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n    " 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya.cmds as cmds\nimport maya.mel as mm\nimport cPickle\n\nd..." 
@@ -813,14 +889,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "attr" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "\n\nglobal proc string[] am_attrParents(string $initList[], string..." 
@@ -845,14 +924,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 52
         -enable 1
-        -width 35
-        -height 35
+        -width 55
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "attrUp" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "\n\nglobal proc string[] am_attrParents(string $initList[], string..." 
@@ -877,14 +959,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation " \nfrom CharacterNames import CharacterNames as chn\n\n\ndef switchLimbIkFk():  #procedure detects the presence of selected controllers , the presence of the attribute and its value, and  namespace, after whill start switching procedure\n    sel = cmds.ls(sl=True )\n    if len(sel):\n        for each in sel : \n            if cmds.objExists (each+'.limb'):  \n                nameSpace = ':'.join(  each.split(':')[:-1]  )+':'     if  len( each.split(':')[:-1] )        else   \"\"\n            currLimb = cmds.getAttr(each+\".limb\")\n    currState = cmds.getAttr (nameSpace + \"switch_CT.\" + currLimb + \"IkFkSwitch\")\n    side      = currLimb[:2]\n    ctrl      = chn().getArm(side)   if 'arm' in currLimb else     chn().getLeg(side)\n    matches   =  [side +chn(ct).divideName()[1]+chn().suffixes[9] for ct in  ctrl  ]  \n    if 'arm' in currLimb: \n        ikJnt = [chn(x).divideName()[0]+chn(x).divideName()[1]+'Ik_jnt' for x in  chn().getArmJnt(side)]  #define ik jnt names \n        fkJnt = [chn(x).divideName()[0]+chn(x).divideName()[1]+'Fk_jnt' for x in  chn().getArmJnt(side)]  #define fk jnt names    \n    else: \n        ikJnt = [chn(x).divideName()[0]+chn(x).divideName()[1]+'Ik_jnt' for x in  chn().getLegJnt(side)]  #define ik jnt names  \n        fkJnt = [chn(x).divideName()[0]+chn(x).divideName()[1]+'Fk_jnt' for x in  chn().getLegJnt(side)]  #define fk jnt names  \n    if currState < 0.5:\n        ikHandMatchTr = cmds.xform (nameSpace + matches[1], q=True, ws=True, t=True)        #get ct pos from matche obj\n        ikHandMatchRt1 = cmds.xform (nameSpace + matches[1], q=True, ws=True, rotation=True)\n        ikElbowMatchTr = cmds.xform (nameSpace + matches[0], q=True, ws=True, t=True)\n        cmds.xform (nameSpace + ctrl[1],  ws=True, t=ikHandMatchTr)            # set t pos\n        cmds.xform (nameSpace + ctrl[1],  ws=True, rotation=ikHandMatchRt1)\n        cmds.xform (nameSpace + ctrl[0],  ws=True, t=ikElbowMatchTr)\n\n        for i in range(20):\n            for i, lenAttr in enumerate([\".upLength\",  \".dwLength\"]):     # ik solver algoritm\n                currentLen = cmds.getAttr(nameSpace+ctrl[1] + lenAttr ) \n                k = cmds.getAttr (nameSpace + fkJnt[i+2] + \".tx\")/cmds.getAttr (nameSpace + ikJnt[i+2] + \".tx\")\n                cmds.setAttr(nameSpace + ctrl[1] + lenAttr, currentLen*k) \n        #cmds.setAttr (nameSpace + \"switch_CT.\" + currLimb + \"IkFkSwitch\", 1)\n\n        \n        if cmds.objExists (nameSpace +ctrl[5]): shoulderRt = cmds.xform (nameSpace +ctrl[5], q=True, ws=True, rotation=True)\n        cmds.setAttr (nameSpace + \"switch_CT.\" + currLimb + \"IkFkSwitch\", 1)\n        if cmds.objExists (nameSpace +ctrl[5]): cmds.xform (nameSpace +ctrl[5],  ws=True, rotation=shoulderRt)\n          \n    else:\n        fkUpArmMatchRt1 = cmds.xform (nameSpace + matches[2], q=True, ws=True, rotation=True)\n        fkForeArmMatchRt1 = cmds.xform (nameSpace + matches[3], q=True, ws=True, rotation=True)\n        fkHandMatchRt1 = cmds.xform (nameSpace + matches[4], q=True, ws=True, rotation=True) \n        cmds.xform (nameSpace + ctrl[2],  ws=True, rotation=fkUpArmMatchRt1) \n        cmds.xform (nameSpace + ctrl[3],  ws=True, rotation=fkForeArmMatchRt1) \n        cmds.xform (nameSpace + ctrl[4],  ws=True, rotation=fkHandMatchRt1) \n\n        for i, ct in enumerate(ctrl[2:4]):                     # fk solver algoritm\n            currentLen = cmds.getAttr(nameSpace + ct + \".length\" ) \n            k = cmds.getAttr (nameSpace + fkJnt[i+2] + \".tx\")/cmds.getAttr (nameSpace + ikJnt[i+2] + \".tx\")\n            cmds.setAttr(nameSpace + ct + \".length\", currentLen/k) \n\n        #cmds.setAttr (nameSpace + \"switch_CT.\" + currLimb + \"IkFkSwitch\", 0)\n        \n        if cmds.objExists (nameSpace +ctrl[5]): shoulderRt = cmds.xform (nameSpace +ctrl[5], q=True, ws=True, rotation=True)\n        cmds.setAttr (nameSpace + \"switch_CT.\" + currLimb + \"IkFkSwitch\", 0)\n        if cmds.objExists (nameSpace +ctrl[5]): cmds.xform (nameSpace +ctrl[5],  ws=True, rotation=shoulderRt)\n        \n    cmds.select (cl=True) \n    \nswitchLimbIkFk()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label " \nfrom CharacterNames import CharacterNames as chn\n\n\ndef switchL..." 
@@ -909,14 +994,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "def selectDeformerInfluens():\n    \n    deformerNod = cmds.ls(sl=True)[0]\n    \n    if cmds.nodeType(deformerNod) == 'ffd':\n        influensShape=cmds.connectionInfo(deformerNod+'.deformedLatticeMatrix', sourceFromDestination =True).split('.')[0]\n        cmds.select( cmds.listRelatives(influensShape, p=True)[0])\n        \n    elif cmds.nodeType(deformerNod) == 'blendShape':  \n        cmds.select( cmds.blendShape( deformerNod, q=True, t=True ))\n        \n    elif cmds.nodeType(deformerNod) == 'wrap': \n        cmds.select(cmds.connectionInfo(deformerNod+'.smoothness[0]', sourceFromDestination =True).split('.')[0])\n        \n    elif cmds.nodeType(deformerNod) == 'skinCluster': \n        cmds.select(cmds.ls (cmds.listHistory (deformerNod, levels=1), type='transform'))\n        \n    elif cmds.nodeType(deformerNod) == 'melnitsaWrap': \n        influensShape=cmds.connectionInfo(deformerNod+'.obstacleMesh', sourceFromDestination =True).split('.')[0]\n        cmds.select( cmds.listRelatives(influensShape, p=True)[0] )            \n\n    elif cmds.nodeType(deformerNod) == 'parentConstraint': cmds.select(cmds.parentConstraint(deformerNod , q=True, tl=True ))\n    elif cmds.nodeType(deformerNod) == 'orientConstraint': cmds.select(cmds.orientConstraint(deformerNod , q=True, tl=True ))\n    elif cmds.nodeType(deformerNod) == 'pointConstraint': cmds.select(cmds.pointConstraint(deformerNod , q=True, tl=True ))\nselectDeformerInfluens()\n" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "def selectDeformerInfluens():\n    \n    deformerNod = cmds.ls(sl=..." 
@@ -941,14 +1029,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from  anProcedures import  getRivets\nimport maya.cmds as cmds\ncmds.select(getRivets())" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from  anProcedures import  getRivets\nimport maya.cmds as cmds\ncm..." 
@@ -973,14 +1064,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Match the transforms of selected objects to the last-selected object." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Match All Transforms" 
@@ -1011,20 +1105,24 @@ global proc shelf_Rigging () {
         -visible 1
         -preventOverride 0
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -style "shelf" 
         -horizontal 0
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Paint weights on smooth bound skins." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Paint Skin Weights" 
@@ -1048,14 +1146,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "vDirPath = \"//SERVER-3D/Project/lib/setup/maya/maya_scripts_rfm3/for_rigging/users/andreikin/over/\"  \nif not vDirPath in sys.path:   sys.path.append(vDirPath) \nfrom  correctCSSkin import  * \n\n#createCSSet()\n    \n#editCSSet(\"up\")\n#editCSSet(\"bend\")\n#editCSSet(\"all\")\n#deleteCSSet()\neditSelectedJntWeights()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "vDirPath = \"//SERVER-3D/Project/lib/setup/maya/maya_scripts_rfm3..." 
@@ -1080,14 +1181,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Paint smooth skin cluster weight for the selection" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Paint Smooth" 
@@ -1112,14 +1216,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "# copy skin weight from one object to another's\nimport maya.cmds as mc\nimport pvProcedures as pvp\nimport maya.OpenMaya as om\n\ndef pvCopySkinWeights():\n    \n    surfAssocList = ['Closest Point on Surface', \\\n                     'Ray Cast', \\\n                     'Closest Component', \\\n                     'UV Space']\n    \n    inflAssocList = ['Closest Joint', \\\n                     'Closest Bone', \\\n                     'One to One', \\\n                     'Label', \\\n                     'Name']\n\n    win = 'pvCopySkinWeightsUI'\n\n    if mc.window(win, exists=True):\n        mc.deleteUI(win)\n\n    win = mc.window(win, title='Copy Skin Weights', \\\n                    width=300, \\\n                    height=170, \\\n                    sizeable=False)\n\n    mc.columnLayout ('pvMainLayoutCopySkin', \\\n                     width=300, \\\n                     height=170, \\\n                     adjustableColumn=True)\n    mc.rowColumnLayout('pvRowLayoutSurfAssoc', numberOfColumns=2, \\\n                       columnAttach=[1, 'right', 10], \\\n                       columnWidth=[[1, 120], [2, 170]])\n    mc.text('pvTextSurfAssoc', label='Surface Association:', align='right')\n    mc.optionMenuGrp('pvOptMenuGrpSurfAssoc', columnWidth=[1, 80])\n    for item in surfAssocList:\n        mc.menuItem(label=item)\n    mc.optionMenuGrp('pvOptMenuGrpSurfAssoc', edit=True, select=1)\n    mc.setParent('..')\n\n    mc.separator(height=5, style='in')\n    mc.rowColumnLayout('pvRowLayoutInfluence', numberOfColumns=2, \\\n                       columnAttach=[1, 'right', 10], \\\n                       columnWidth=[[1, 120], [2, 170]])\n    mc.text('pvTextInflAssoc', label='Influence Association:', align='right')\n    mc.optionMenuGrp('pvOptMenuGrpInflAssoc', columnWidth=[1, 80])\n    for item in inflAssocList:\n        mc.menuItem(label=item)\n    mc.optionMenuGrp('pvOptMenuGrpInflAssoc', edit=True, select=3)\n    mc.setParent('..')\n\n    mc.separator(height=5, style='in')\n    mc.rowColumnLayout('pvRowLayoutSettings', numberOfColumns=2, \\\n                       columnAttach=[1, 'right', 10], \\\n                       columnWidth=[[1, 120], [2, 160]])\n    mc.text('pvTextCheckBoxNorm', label='', align='right')\n    mc.checkBox('pvCheckBoxNorm', value=0, label='Normalize', align='right')\n    mc.text('pvTextCheckBoxForce', label='', align='right')\n    mc.checkBox('pvCheckBoxForce', value=1, label='Delete Exists SkinCluster', align='right')\n    mc.text('pvTextCheckBoxRemUi', label='', align='right')\n    mc.checkBox('pvCheckBoxRemUi', value=1, label='Remove Unused Influences', align='right')\n    mc.setParent('..')\n\n    mc.separator(height=5, style='in')\n    mc.rowColumnLayout('pvRowLayoutNurbsSamp', numberOfColumns=2, \\\n                       columnAttach=[1, 'right', 10], \\\n                       columnWidth=[[1, 120], [2, 30]])\n    mc.text('pvTextIntFieldNurbsSamp', label='NURBS Samples:', align='right')\n    mc.intField('pvIntFieldNurbsSamp', value=25, minValue=0, maxValue=100, width=50)\n    mc.setParent('..')\n\n    mc.separator(height=5, style='in')\n    mc.button('pvButtonRunCopySkin', label='Copy', \\\n              width=90, \\\n              command='pvCopySkinWeightsMain()')\n\n    mc.showWindow(win)\n\ndef pvCopySkinWeightsMain():\n    destList = mc.ls(selection=True)\n    force = mc.checkBox('pvCheckBoxForce', query=True, value=True)\n    remUi = mc.checkBox('pvCheckBoxRemUi', query=True, value=True)\n    nurbsSamp = mc.intField('pvIntFieldNurbsSamp', query=True, value=True)\n    if len(destList) < 2: # check count of the selected objects\n        om.MGlobal.displayInfo('Need to select more than one object.')\n        return\n    sourceObj  = destList.pop(0) # getting source object (should selected first)\n    sourceSkin = pvp.pvGetSkinCluster(sourceObj)\n    if remUi: # getting influences list on source skinCluster\n        influences = mc.skinCluster(sourceSkin, query=True, weightedInfluence=True)\n    else:\n        influences = mc.skinCluster(sourceSkin, query=True, influence=True)\n    joints = mc.ls(influences, type='joint') # getting joints list on source skinCluster\n    nurbs = list(set(influences) - set(joints)) # getting nurbs list on source skinCluster\n    useComp = mc.getAttr(sourceSkin + '.useComponents') # getting state of \"useComponents\" attribute on source skinCluster\n    for destObj in destList: # try to find history on the destination object\n        destObjSkin = pvp.pvGetSkinCluster(destObj)\n        if not destObjSkin:\n            pvCopySkin(destObj, joints, nurbs, sourceSkin, useComp, nurbsSamp, remUi) # copy skinCluster and skinWeights from source object to destination\n            continue\n        else:\n            if not force: # if skinCluster exists on the destination object, check the \"force\" attribute and decide delete skinCluster or not\n                om.MGlobal.displayInfo('Object %s already have SkinCluster - %s. It was skiped. Need to use \"Delete Exists SkinCluster\", to delete it.'%(destObj, destObjSkin))\n            else:\n                mc.skinCluster(destObjSkin, e=True, unbind=True) # unbind skinCluster with deleting history\n                om.MGlobal.displayInfo('SkinCluster %s on object %s was deleted.'%(destObjSkin, destObj))\n                pvCopySkin(destObj, joints, nurbs, sourceSkin, useComp, nurbsSamp, remUi) # copy skinCluster and skinWeights from source object to destination\n\ndef pvCopySkin(destObj, joints, nurbs, sourceSkin, useComp, nurbsSamp, remUi):\n    # describe template variables\n    tempJoint = None\n    UVspace = None\n\n    # query necessary attributes for copy skin weights\n    surfAssoc = mc.optionMenuGrp('pvOptMenuGrpSurfAssoc', query=True, select=True)\n    inflAssoc = mc.optionMenuGrp('pvOptMenuGrpInflAssoc', query=True, select=True)\n    norm = mc.checkBox('pvCheckBoxNorm', query=True, value=True)\n\n    if surfAssoc == 1:\n        surfAssoc = 'closestPoint'\n    elif surfAssoc == 2:\n        surfAssoc = 'rayCast'\n    elif surfAssoc == 3:\n        surfAssoc = 'closestComponent'\n    elif surfAssoc == 4:\n        surfAssoc = 'closestComponent'\n        UVspace = True\n\n    if inflAssoc == 1:\n        inflAssoc = 'closestJoint'\n    elif inflAssoc == 2:\n        inflAssoc = 'closestBone'\n    elif inflAssoc == 3:\n        inflAssoc = 'oneToOne'\n    elif inflAssoc == 4:\n        inflAssoc = 'label'\n    elif inflAssoc == 5:\n        inflAssoc = 'name'\n\n    # create new skinCluster on destination object with joints influences\n    if joints:\n        destSkin = mc.skinCluster(destObj, \\\n                                  joints, \\\n                                  toSelectedBones=True, \\\n                                  useGeometry=True, \\\n                                  dropoffRate=4, \\\n                                  polySmoothness=False, \\\n                                  nurbsSamples=nurbsSamp, \\\n                                  removeUnusedInfluence=False, \\\n                                  maximumInfluences=5, \\\n                                  obeyMaxInfluences=False, \\\n                                  normalizeWeights=True)[0]\n    else:\n        mc.select(clear=True)\n        tempJoint = mc.joint()\n        om.MGlobal.displayInfo('tempJoint: %s'%tempJoint)\n        destSkin = mc.skinCluster(destObj, \\\n                                  tempJoint, \\\n                                  toSelectedBones=True, \\\n                                  useGeometry=True, \\\n                                  dropoffRate=4, \\\n                                  polySmoothness=False, \\\n                                  nurbsSamples=nurbsSamp, \\\n                                  removeUnusedInfluence=False, \\\n                                  maximumInfluences=5, \\\n                                  obeyMaxInfluences=False, \\\n                                  normalizeWeights=True)[0]\n                                          \n    # add nurbs influences in new skinCluster\n    if nurbs:\n        mc.skinCluster(destSkin, \\\n                       edit=True, \\\n                       useGeometry=True, \\\n                       dropoffRate=4, \\\n                       polySmoothness=False, \\\n                       nurbsSamples=nurbsSamp, \\\n                       lockWeights=False, \\\n                       weight=0, \\\n                       addInfluence=nurbs)\n        \n    # set state for useComponets attribute\n    mc.setAttr((destSkin + '.useComponents'), useComp)\n    \n    # copy skin weights from source object to destination\n    if UVspace:\n        mc.copySkinWeights(sourceSkin=sourceSkin, \\\n                           destinationSkin=destSkin, \\\n                           noMirror=True, \\\n                           surfaceAssociation=surfAssoc, \\\n                           influenceAssociation=inflAssoc, \\\n                           normalize=norm, \\\n                           uvSpace=['map1', 'map1'])\n    else:\n        mc.copySkinWeights(sourceSkin=sourceSkin, \\\n                           destinationSkin=destSkin, \\\n                           noMirror=True, \\\n                           surfaceAssociation=surfAssoc, \\\n                           influenceAssociation=inflAssoc, \\\n                           normalize=norm)\n\n    # remove unused influences\n    if remUi:\n        pvp.pvRemoveUnusedInfl(destSkin)\n        \n    # clear template joints\n    if tempJoint:\n        mc.delete(tempJoint)\n        \n    # setting up userNormals\n    if mc.getAttr('%s.deformUserNormals'%destSkin):\n        mc.setAttr('%s.deformUserNormals'%destSkin, 0)\n    \n    # selecting destination object\n    mc.select(destObj, r=True)\n    \npvCopySkinWeights()\n    " 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "# copy skin weight from one object to another's\nimport maya.cmds..." 
@@ -1144,14 +1251,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from an_skinProcedures import *\nswapSkin()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from an_skinProcedures import *\nswapSkin()" 
@@ -1176,14 +1286,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "from  an_skinWeightManager import *\nan_skinWeightManager()" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "from  an_skinWeightManager import *\nan_skinWeightManager()" 
@@ -1208,14 +1321,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select either a single skin or the source and the destination skin." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Mirror Skin Weights" 
@@ -1239,14 +1355,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select surface(s) and a joint." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Bind Skin" 
@@ -1270,14 +1389,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select surface(s)." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Unbind Skin" 
@@ -1301,14 +1423,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select skinned surface(s) and influence transform(s)." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Add Influence" 
@@ -1332,14 +1457,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Select surface(s) first and then the influence transform." 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Remove Influence" 
@@ -1363,14 +1491,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "Remove unused influences" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "Remove Unused Influences" 
@@ -1395,14 +1526,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "def planeFromPoint():\n    point =   cmds.ls( fl=True, orderedSelection=True)\n    point.append(point.pop(2))# moove last point to index 3\n    tmpPlane = cmds.polyPlane  (   sx=1,  sy=1) [0]\n    for i in range(4):\n        pos = cmds.xform( point[i], q=True, ws=True, t=True )\n        cmds.xform( tmpPlane + '.vtx['+ str(i)+']' ,  ws=True, t=pos )" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "def planeFromPoint():\n    point =   cmds.ls( fl=True, orderedSel..." 
@@ -1427,14 +1561,17 @@ global proc shelf_Rigging () {
     ;
     shelfButton
         -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
         -enable 1
         -width 35
-        -height 35
+        -height 34
         -manage 1
         -visible 1
         -preventOverride 0
         -annotation "import maya, subprocess, os\npath = os.path.dirname(maya.cmds.file(q=True, sn=True))\nsubprocess.Popen('explorer \"%s\"' % os.path.abspath(path))" 
         -enableBackground 0
+        -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
         -label "import maya, subprocess, os\npath = os.path.dirname(maya.cmds.fil..." 
