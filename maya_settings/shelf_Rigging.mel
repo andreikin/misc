@@ -14,40 +14,6 @@ global proc shelf_Rigging () {
         -manage 1
         -visible 1
         -preventOverride 0
-        -annotation "mayaOpenDialogCom" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "mayaOpenDialogCom" 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.2 
-        -image "C:/Program Files/Autodesk/Maya2012/icons/openScript.png" 
-        -image1 "C:/Program Files/Autodesk/Maya2012/icons/openScript.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "from Gui import ssm;reload(ssm);ssm.load('ui_scene|ui_load')" 
-        -sourceType "python" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
         -annotation "Delete construction history on the selected object(s)" 
         -enableBackground 0
         -backgroundColor 0 0 0 
@@ -105,41 +71,6 @@ global proc shelf_Rigging () {
         -marginHeight 1
         -command "NodeEditorWindow" 
         -sourceType "mel" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
-        -annotation "from an_rigSys import an_rigSys\nan_rigSys()" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "from an_rigSys import an_rigSys\nan_rigSys()" 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -imageOverlayLabel "Rig" 
-        -overlayLabelColor 1 0 0 
-        -overlayLabelBackColor 0 0 0 1 
-        -image "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/charRig.png" 
-        -image1 "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/charRig.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command " \n\ndef get_folders_path(rootDir, fld): \n       global procPath\n       for lists in os.listdir(rootDir):\n           path = os.path.join(rootDir, lists) \n           if lists==fld:  \n               procPath = os.path.abspath(path)\n           if os.path.isdir(path):\n               get_folders_path(path, fld)\n \nprocPath = '' \nget_folders_path(PATH, 'an_rigSys.py')\nrun_python(procPath)\n" 
-        -sourceType "python" 
         -commandRepeatable 1
         -flat 1
     ;
@@ -305,76 +236,6 @@ global proc shelf_Rigging () {
         -manage 1
         -visible 1
         -preventOverride 0
-        -annotation "from an_createControls import an_createControls\nan_createControls()" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "from an_createControls import an_createControls\nan_createControl..." 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -imageOverlayLabel "CT" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0.0610687 0.0610687 0.0610687 0.5 
-        -image "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/tools.png" 
-        -image1 "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/tools.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "from an_Procedures.rivet import rivet\nprocPath = get_folders_path(PATH, 'an_createControls.py')\nrun_python(procPath)\n" 
-        -sourceType "python" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
-        -annotation "from  an_Procedures.ribbon import  *\nribonUi()" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "from  an_Procedures.ribbon import  *\nribonUi()" 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -imageOverlayLabel "Ribbon" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.5 
-        -image "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/tools.png" 
-        -image1 "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/tools.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "from  an_Procedures.ribbon import  *\nribonUi()" 
-        -sourceType "python" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
         -annotation "Locator: Create a locator object on the grid" 
         -enableBackground 0
         -backgroundColor 0 0 0 
@@ -388,7 +249,7 @@ global proc shelf_Rigging () {
         -useAlpha 1
         -font "plainLabelFont" 
         -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.25 
+        -overlayLabelBackColor 0 0 0 0.2 
         -image "locator.png" 
         -image1 "locator.png" 
         -style "iconOnly" 
@@ -503,6 +364,9 @@ global proc shelf_Rigging () {
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1
+        -mi "__________________________" ( "print(\"User defined menuItem\");" )
+        -mi "hide_all_pivots_and_axis" ( "def hide_all_pivots_and_axis():\n    objs = cmds.ls()\n    for obj in objs:\n        for attr in ['displayRotatePivot', 'displayLocalAxis']:\n            try:\n                cmds.setAttr(obj+\".\"+attr, 0)\n            except Exception:\n                pass \nhide_all_pivots_and_axis()" )
+        -mip 1
     ;
     shelfButton
         -enableCommandRepeat 1
@@ -569,7 +433,7 @@ global proc shelf_Rigging () {
         -style "iconOnly" 
         -marginWidth 1
         -marginHeight 1
-        -command "from an_classControllers import AnControllers\nobjs = cmds.ls(sl=True)\nAttributes = cmds.channelBox  ('mainChannelBox', q = True, selectedMainAttributes = True ) \n\nfor obj in objs:\n    if Attributes: \n        for atr in Attributes:\n            cmds.setAttr(obj+\".\"+atr,  e = True,  k=False, l=True)\n    else:\n        for vObj in  cmds.ls(sl=True):\n            AnControllers(vObj).showTransAttrs() " 
+        -command "objs = cmds.ls(sl=True)\nAttributes = cmds.channelBox  ('mainChannelBox', q = True, selectedMainAttributes = True ) \n\nfor obj in objs:\n    if Attributes: \n        for atr in Attributes:\n            cmds.setAttr(obj+\".\"+atr,  e = True,  k=False, l=True)\n    else:\n        for vObj in  cmds.ls(sl=True):\n            for attr in ['tx', 'ty', 'tz', 'rx', 'ry', 'rz', 'sx', 'sy', 'sz', 'v']:\n                cmds.setAttr(obj + \".\" + attr, lock=False, keyable=True)" 
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1
@@ -654,63 +518,33 @@ global proc shelf_Rigging () {
         -manage 1
         -visible 1
         -preventOverride 0
-        -annotation "from maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )+0.1 )" 
+        -annotation "set sceleton size" 
         -enableBackground 0
         -backgroundColor 0 0 0 
         -highlightColor 0.321569 0.521569 0.65098 
         -align "center" 
-        -label "from maya.cmds import *\njointDisplayScale(jointDisplayScale( q=T..." 
+        -label "from maya.cmds import cmds\n\ndef an_distans(start, end, act=''):\n..." 
         -labelOffset 0
         -rotation 0
         -flipX 0
         -flipY 0
         -useAlpha 1
         -font "plainLabelFont" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.2 
-        -image "C:/Users/kinetik.MEL/Documents/maya/2012-x64/prefs/icons/jntRadiusUp.png" 
-        -image1 "C:/Users/kinetik.MEL/Documents/maya/2012-x64/prefs/icons/jntRadiusUp.png" 
+        -imageOverlayLabel "size" 
+        -overlayLabelColor 0 1 1 
+        -overlayLabelBackColor 0 0 0 1 
+        -image "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/jnt2.png" 
+        -image1 "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/jnt2.png" 
         -style "iconOnly" 
         -marginWidth 1
         -marginHeight 1
-        -command "from maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )+0.1 )" 
+        -command "import maya.cmds as cmds\n\ndef an_distans(start, end, act=''):\n    from math import sqrt\n    a = cmds.xform(start, q=True, t=True, ws=True) if type(start) == str or type(start) == unicode else start\n    b = cmds.xform(end, q=True, t=True, ws=True) if type(end) == str or type(end) == unicode else end\n    xy = sqrt((a[0] - b[0]) * (a[0] - b[0]) + (a[1] - b[1]) * (a[1] - b[1]))\n    return sqrt(xy * xy + (a[2] - b[2]) * (a[2] - b[2]))\n\n\ndef get_skeleton_size():\n    joints = cmds.ls( type='joint')\n    max_val = 0\n    for jnt_a in joints:\n        for jnt_b in joints:\n            dist = an_distans(jnt_a, jnt_b)\n            if max_val < dist:\n                max_val = dist\n    return max_val\n    \n\n\nSCALE = 1.0\njnt_size = get_skeleton_size() * SCALE * 0.01\ncmds.jointDisplayScale( jnt_size, a=True  )" 
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
-        -annotation "\nfrom maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )-0.1 )" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "\nfrom maya.cmds import *\njointDisplayScale(jointDisplayScale( q=..." 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.2 
-        -image "C:/Users/kinetik.MEL/Documents/maya/2012-x64/prefs/icons/jntRadiusDw.png" 
-        -image1 "C:/Users/kinetik.MEL/Documents/maya/2012-x64/prefs/icons/jntRadiusDw.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "\nfrom maya.cmds import *\njointDisplayScale(jointDisplayScale( q=True )/2 )" 
-        -sourceType "python" 
-        -commandRepeatable 1
-        -flat 1
+        -mi "___________________" ( "print(\"User defined menuItem\");" )
+        -mi "Joint size window" ( "# import maya.mel as mm\n# mm.eval(\"JdsWin; jdsWin;\")\n\n\nimport maya.cmds as cmds\n\ndef increase():\n    cmds.jointDisplayScale(cmds.jointDisplayScale( q=True )*1.3 )\n\ndef decrease():\n    cmds.jointDisplayScale(cmds.jointDisplayScale( q=True )*0.7 )\n \n\nwindow = cmds.window(width=180,  height=50, s=False,)\ncmds.rowLayout( numberOfColumns=3, columnWidth3=(100, 40, 40), adjustableColumn=2, columnAlign=(1, 'both'), columnAttach=[(1, 'both', 0), (2, 'both', 0), (3, 'both', 0)  ] )\ncmds.text('Set size of joints: ')\ncmds.iconTextButton( style='iconAndTextHorizontal', image1='C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Up.png', command='increase()'  )\ncmds.iconTextButton( style='iconAndTextHorizontal', image1='C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Dw.png' , command='decrease()'  )\ncmds.showWindow( window )" )
+        -mip 1
     ;
     shelfButton
         -enableCommandRepeat 1
@@ -912,8 +746,8 @@ global proc shelf_Rigging () {
         -imageOverlayLabel "Attr" 
         -overlayLabelColor 0 1 1 
         -overlayLabelBackColor 0 0 0 0.9 
-        -image "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/arrowDw.png" 
-        -image1 "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/arrowDw.png" 
+        -image "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Dw.png" 
+        -image1 "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Dw.png" 
         -style "iconOnly" 
         -marginWidth 1
         -marginHeight 1
@@ -925,9 +759,9 @@ global proc shelf_Rigging () {
     shelfButton
         -enableCommandRepeat 1
         -flexibleWidthType 3
-        -flexibleWidthValue 52
+        -flexibleWidthValue 32
         -enable 1
-        -width 55
+        -width 35
         -height 34
         -manage 1
         -visible 1
@@ -947,8 +781,8 @@ global proc shelf_Rigging () {
         -imageOverlayLabel "Attr" 
         -overlayLabelColor 0 1 1 
         -overlayLabelBackColor 0 0 0 0.9 
-        -image "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/arrowUp.png" 
-        -image1 "C:/Users/belyaev_a/Documents/maya/2017/prefs/icons/arrowUp.png" 
+        -image "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Up.png" 
+        -image1 "C:/Users/avbeliaev/Documents/maya/2019/prefs/icons/ur_Up.png" 
         -style "iconOnly" 
         -marginWidth 1
         -marginHeight 1
@@ -1555,41 +1389,6 @@ global proc shelf_Rigging () {
         -marginWidth 1
         -marginHeight 1
         -command "def planeFromPoint():\n    point =   cmds.ls( fl=True, orderedSelection=True)\n    point.append(point.pop(2))# moove last point to index 3\n    tmpPlane = cmds.polyPlane  (   sx=1,  sy=1) [0]\n    for i in range(4):\n        pos = cmds.xform( point[i], q=True, ws=True, t=True )\n        cmds.xform( tmpPlane + '.vtx['+ str(i)+']' ,  ws=True, t=pos )" 
-        -sourceType "python" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
-        -annotation "import maya, subprocess, os\npath = os.path.dirname(maya.cmds.file(q=True, sn=True))\nsubprocess.Popen('explorer \"%s\"' % os.path.abspath(path))" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "import maya, subprocess, os\npath = os.path.dirname(maya.cmds.fil..." 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -imageOverlayLabel "folder" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.5 
-        -image "pythonFamily.png" 
-        -image1 "pythonFamily.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "import maya, subprocess, os\npath = os.path.dirname(maya.cmds.file(q=True, sn=True))\nsubprocess.Popen('explorer \"%s\"' % os.path.abspath(path))" 
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1
